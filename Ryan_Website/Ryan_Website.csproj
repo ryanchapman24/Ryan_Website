@@ -94,6 +94,41 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\blog-test.jpg" />
+    <Content Include="assets\bug-tracker2-test.jpg" />
+    <Content Include="assets\Car-lister-test.jpg" />
+    <Content Include="assets\digital-art-test.jpg" />
+    <Content Include="assets\JS-exercises-test.jpg" />
+    <Content Include="assets\piggy-money-test.jpg" />
+    <Content Include="Content\SyntaxHighlighter\shCore.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreDefault.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreDjango.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreEclipse.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreEmacs.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreFadeToGrey.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreMDUltra.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreMidnight.css" />
+    <Content Include="Content\SyntaxHighlighter\shCoreRDark.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeDefault.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeDjango.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeEclipse.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeEmacs.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeFadeToGrey.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeMDUltra.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeMidnight.css" />
+    <Content Include="Content\SyntaxHighlighter\shThemeRDark.css" />
+    <Content Include="css\Exercise1.css" />
+    <Content Include="css\Exercise2.css" />
+    <Content Include="css\Exercise3.css" />
+    <Content Include="css\Exercise4.css" />
+    <Content Include="Exercises\Exercise1.html" />
+    <Content Include="Exercises\Exercise2.html" />
+    <Content Include="Exercises\Exercise3.html" />
+    <Content Include="Exercises\Exercise4.html" />
+    <Content Include="js\Exercise1.js" />
+    <Content Include="js\Exercise2.js" />
+    <Content Include="js\Exercise3.js" />
+    <Content Include="js\Exercise4.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -102,6 +137,13 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
+    <Content Include="assets\Resume\Resume_RyanSChapman.docx" />
+    <Content Include="contact.php" />
+    <None Include="Properties\PublishProfiles\rchapman24.pubxml" />
+    <None Include="scripts\jquery-2.2.2.intellisense.js" />
+    <Content Include="scripts\jquery-2.2.2.js" />
+    <Content Include="scripts\jquery-2.2.2.min.js" />
+    <Content Include="scripts\jquery-2.2.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,26 +156,20 @@
     <Content Include="assets\apple-touch-icon-114x114.png" />
     <Content Include="assets\apple-touch-icon-72x72.png" />
     <Content Include="assets\apple-touch-icon.png" />
-    <Content Include="assets\blog-test.jpg" />
     <Content Include="assets\blog.jpg" />
     <Content Include="assets\bug-tracker1-test.jpg" />
-    <Content Include="assets\bug-tracker2-test.jpg" />
     <Content Include="assets\Bugs-test.jpg" />
     <Content Include="assets\Bugs.jpg" />
-    <Content Include="assets\Car-lister-test.jpg" />
     <Content Include="assets\Car-lister.jpg" />
     <Content Include="assets\contact-bg.jpg" />
-    <Content Include="assets\digital-art-test.jpg" />
     <Content Include="assets\favicon.ico" />
     <Content Include="assets\favicon.png" />
     <Content Include="assets\header-bg.jpg" />
     <Content Include="assets\imac.png" />
-    <Content Include="assets\JS-exercises-test.jpg" />
     <Content Include="assets\JS-exercises.jpg" />
     <Content Include="assets\loader.gif" />
     <Content Include="assets\logo.png" />
     <Content Include="assets\Mountains_Stars.jpg" />
-    <Content Include="assets\piggy-money-test.jpg" />
     <Content Include="assets\piggy-money.jpg" />
     <Content Include="assets\projects\company-logo.png" />
     <Content Include="assets\projects\project-slide.jpg" />
@@ -181,6 +217,34 @@
     <Content Include="js\waypoints.min.js" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
+    <Content Include="scripts\SyntaxHighlighter\shAutoloader.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushAppleScript.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushAS3.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushBash.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushColdFusion.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushCpp.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushCSharp.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushCss.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushDelphi.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushDiff.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushErlang.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushGroovy.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushJava.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushJavaFX.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushJScript.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushPerl.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushPhp.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushPlain.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushPowerShell.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushPython.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushRuby.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushSass.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushScala.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushSql.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushVb.js" />
+    <Content Include="scripts\SyntaxHighlighter\shBrushXml.js" />
+    <Content Include="scripts\SyntaxHighlighter\shCore.js" />
+    <Content Include="scripts\SyntaxHighlighter\shLegacy.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

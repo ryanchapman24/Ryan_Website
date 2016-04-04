@@ -1571,66 +1571,198 @@ h1.section-title{
 
 @media (max-width: 479px) {
 
-.jumbotron .right-col p{
-    font-size:38px;
-    line-height:38px;
+    .jumbotron .right-col p {
+        font-size: 38px;
+        line-height: 38px;
+    }
+
+    h1.section-title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+
+    p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .btn-theme {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+
+    #about h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #about p {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+
+    #filter-works ul li a {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    #contact .contact-info p,
+    #contact .contact-info address {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    #contact .form-control {
+        height: 58px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #contact .form-group [class*="icon-"] {
+        font-size: 32px;
+        line-height: 58px;
+    }
+
+    #contact textarea.form-control {
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 14px;
+    }
+}
+/*-----added CSS elements-----*/
+
+.js-navbar-button {
+    display: inline-block;
+    width: 280px;
 }
 
-h1.section-title{
-    font-size:32px;
-    line-height:46px;
+.btn-theme-js {
+        color: #fff;
+        background-color: #388E8E;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 24px;
+        font-weight: 300;
+        width: 280px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 0;
+        -webkit-transition: background-color 0.2s ease-out;
+        transition: background-color 0.2s ease-out;
+}
+.btn-theme-js:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #f2bc6e;
+}
+.btn-theme-js:active,
+.btn-theme-js:focus {
+	color:#fff;
 }
 
 
-p {
-    font-size:16px;
-    line-height:21px;
+.btn-theme-js [class*=icon] {
+    margin-right:10px;
 }
 
-.btn-theme{
-	padding:15px 40px;
+
+.btn-theme-js.transparent {
+	color:#fff;
+	background-color:transparent;
+	padding:14px 35px;
+	border:2px solid #fff;
+	font-weight:400;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out;
+}
+
+.btn-theme-js.transparent:hover,
+.btn-theme-js.transparent:focus,
+.btn-theme-js.transparent:active {
+	color:#388E8E;
+	background-color:#fff;
+	border:2px solid #fff;
+	opacity:1;
+}
+#about .btn-theme-js.transparent {
+    font-size: 18px;
+    text-decoration: none;
+}
+.modal-body .btn-theme-js {
+    margin-top: 48px;
+}
+.btn-theme-js{
+	
 	font-size:18px;
 }
 
-#about h1 {
-    font-size:28px;
-    line-height:36px;
+#numgames {
+    display: inline-block;
 }
 
-#about p {
-    font-size:21px;
-    line-height:28px;
+#fact {
+    display: inline-block;
 }
 
-
-#filter-works ul li a{
-    font-size:21px;
-    line-height:28px;
+#fizzbuzz {
+    display: inline-block;
 }
 
-#contact .contact-info p,
-#contact .contact-info address{
-    font-size:16px;
-    line-height:26px;
+#palindrome {
+    display: inline-block;
 }
 
-
-#contact .form-control {
-    height:58px;
-    font-size:24px;
-    line-height:30px;
+#js-ex {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-#contact .form-group [class*="icon-"] {
-    font-size:32px;
-    line-height:58px;
-
+#twitter .icon-linkedin {
+    font-size: 60px;
+    padding-right: 30px;
 }
 
-#contact textarea.form-control {
-    font-size:24px;
-    line-height:32px;
-	padding-top:14px;
+#linkedin-btn {
+    margin-top: -30px;
 }
 
+#submit-ng {
+margin: 0 0 2em 0;
+}
+
+#submit-f {
+margin: 0 0 2em 0;
+}
+
+#submit-fb {
+margin: 0 0 2em 0;
+}
+
+#submit-p {
+margin: 0 0 2em 0;
+}
+
+#again-ng {
+margin: 0 0 2em 0;
+}
+
+#again-f {
+margin: 0 0 2em 0;
+}
+
+#again-fb {
+margin: 0 0 2em 0;
+}
+
+#again-p {
+margin: 0 0 2em 0;
+}
+
+.art-display {
+    max-width: 250%;
 }
