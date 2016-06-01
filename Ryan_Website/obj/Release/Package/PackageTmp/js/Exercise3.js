@@ -7,6 +7,7 @@ $(document).ready(function () {
         var two = parseInt($("input[name=2nd-fb]").val());
         var oneF = parseFloat($("input[name=1st-fb]").val());
         var twoF = parseFloat($("input[name=2nd-fb]").val());
+
         if ($.trim($("#numbers-fb").text()) != "") {
             $("#numbers-fb").empty();
         }
