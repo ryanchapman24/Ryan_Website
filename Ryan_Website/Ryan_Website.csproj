@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,7 +100,9 @@
     <Content Include="assets\Car-lister-test.jpg" />
     <Content Include="assets\CardiacCats.jpg" />
     <Content Include="assets\digital-art-test.jpg" />
+    <Content Include="assets\ecommerce.jpg" />
     <Content Include="assets\EvoLv3_Banner.jpg" />
+    <Content Include="assets\Headshot_Square.png" />
     <Content Include="assets\JS-exercises-test.jpg" />
     <Content Include="assets\piggy-money-test.jpg" />
     <Content Include="assets\projects\blog1.png" />
@@ -107,7 +110,11 @@
     <Content Include="assets\projects\bugtracker1.png" />
     <Content Include="assets\projects\bugtracker2.png" />
     <Content Include="assets\projects\bugtracker3.png" />
+    <Content Include="assets\projects\ecommerce-1.png" />
+    <Content Include="assets\projects\ecommerce-2.png" />
+    <Content Include="assets\projects\ecommerce-3.png" />
     <Content Include="assets\projects\EvoLv3_logo.png" />
+    <Content Include="assets\projects\Evolve.png" />
     <Content Include="assets\projects\pocket1.png" />
     <Content Include="assets\projects\pocket2.png" />
     <Content Include="assets\projects\pocket3.png" />
@@ -152,9 +159,8 @@
     <Content Include="font\fontawesome-webfont.ttf" />
     <Content Include="font\fontawesome-webfont.woff" />
     <Content Include="font\FontAwesome.otf" />
-    <Content Include="assets\Resume\Resume_RyanSChapman.docx" />
     <Content Include="contact.php" />
-    <Content Include="assets\Resume\Resume_RyanSChapman.pdf" />
+    <Content Include="assets\Resume\Resume_RyanChapman.pdf" />
     <None Include="Properties\PublishProfiles\rchapman24.pubxml" />
     <None Include="scripts\jquery-2.2.2.intellisense.js" />
     <Content Include="scripts\jquery-2.2.2.js" />
